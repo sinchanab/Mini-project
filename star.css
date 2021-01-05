@@ -1,0 +1,37 @@
+
+body{
+
+ background-image: url('front.jpg');
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+height: 100vh;
+ width: 100%;
+}
+
+
+.menu {
+  margin: 140px;
+  color:#000;
+  width: 80%;
+  height: 80px;
+  background-color: rgba(131, 104, 104, 0.3);
+}
+.leftmenu h4 {
+  padding-left: 180px;
+  top: 10px;
+font-weight: bold;
+  font-size: 40px;
+  color: rgba(218, 217, 213, 0.89);
+  line-height: 90px;
+}
+.start {
+	padding: 5px 100px;
+ margin-left: 600px;
+ margin-top: 5px;
+ height: 40px;
+ width: 70px;
+ border-color:rgb(25,67,158) ;
+ color: #000;
+  background-color:rgb(25, 67, 158);
+}

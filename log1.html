@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="in.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+  </head>
+  <body class="body">
+      <form action="checklogin.php" method="POST" class="login-form">
+        <h1> Coordinator Login</h1>
+        <div class="txtb">
+          <input type="text" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="txtb">
+          <input type="password" name="pass"  placeholder="Password" required>
+        </div>
+<p class="form-p">not a user? <a href="coordiregister.php">register</a> </p>
+        <input type="submit" name="submit" class="login-btn" value="Login">
+  <p class="form-p"><?php echo $error;  ?> </p>
+       
+
+      </form>
+
+     
+
+
+  </body>
+</html>
